@@ -1,4 +1,4 @@
-# cookiecutter-hypermodern-python
+# cookiecutter-nanosystemslab
 
 <!-- badges-begin -->
 
@@ -37,13 +37,12 @@
 
 <p align="center"><img alt="logo" src="docs/_static/nanosystemslab_logo.png" width="50%" /></p>
 
-[Cookiecutter] template for the Nanosystems Lab's Python packages based on the
-[Hypermodern Python] article series.
+[Cookiecutter] template for the Nanosystems Lab's Python packages based on [Hypermodern Python Cookiecutter].
 
 ✨📚✨ [Read the full documentation][readthedocs page]
 
 [cookiecutter]: https://github.com/audreyr/cookiecutter
-[hypermodern python]: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+[hypermodern python Cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 
 ## Usage
 
