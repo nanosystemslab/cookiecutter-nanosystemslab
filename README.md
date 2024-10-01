@@ -39,8 +39,6 @@
 
 [Cookiecutter] template for the Nanosystems Lab's Python packages based on [Hypermodern Python Cookiecutter].
 
-✨📚✨ [Read the full documentation][readthedocs page]
-
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [hypermodern python Cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 
