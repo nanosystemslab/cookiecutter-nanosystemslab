@@ -35,9 +35,9 @@
 
 <!-- badges-end -->
 
-<p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
+<p align="center"><img alt="logo" src="docs/_static/nanosystemslab_logo.png" width="50%" /></p>
 
-[Cookiecutter] template for a Python package based on the
+[Cookiecutter] template for the Nanosystems Lab's Python packages based on the
 [Hypermodern Python] article series.
 
 ✨📚✨ [Read the full documentation][readthedocs page]
@@ -48,7 +48,7 @@
 ## Usage
 
 ```console
-cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
+cookiecutter gh:nanosystemslab/cookiecutter-nanosystemslab
 ```
 
 ## Features
@@ -78,7 +78,7 @@ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 - Generate command-line reference with [sphinx-click]
 - Manage project labels with [GitHub Labeler]
 
-The template supports Python 3.7, 3.8, 3.9, and 3.10.
+The template supports Python 3.9, 3.10, 3.11, and 3.12.
 
 [autodoc]: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
 [bandit]: https://github.com/PyCQA/bandit
