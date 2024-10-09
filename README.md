@@ -40,7 +40,7 @@
 [Cookiecutter] template for the Nanosystems Lab's Python packages based on [Hypermodern Python Cookiecutter].
 
 [cookiecutter]: https://github.com/audreyr/cookiecutter
-[hypermodern python Cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+[hypermodern python cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 
 ## Usage
 
