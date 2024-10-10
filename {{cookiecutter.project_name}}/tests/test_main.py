@@ -16,8 +16,9 @@ from {{cookiecutter.package_name}} import __main__
 #     result = runner.invoke(__main__.main)
 #     assert result.exit_code == 0
 
-def test_main_succeeds(capfd: CaptureFixture) -> None:
+def test_main_succeeds(capfd) -> None:
     """It prints output and exits successfully."""
+    print(type(capfd))
     __main__.main()  # Directly call the main function
     captured = capfd.readouterr()  # Capture the output
     assert captured.out != None # Check that something is printed (you can be more specific here)
