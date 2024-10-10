@@ -1,8 +1,5 @@
 """Test cases for the __main__ module."""
-import pytest
 from typing import Any
-
-# from click.testing import CliRunner
 
 from {{cookiecutter.package_name}} import __main__
 
@@ -18,9 +15,10 @@ from {{cookiecutter.package_name}} import __main__
 #     result = runner.invoke(__main__.main)
 #     assert result.exit_code == 0
 
+
 def test_main_succeeds(capfd: Any) -> None:
     """It prints output and exits successfully."""
     print(type(capfd))
     __main__.main()  # Directly call the main function
     out, err = capfd.readouterr()  # Capture the output
-    assert out != None # Check that something is printed (you can be more specific here)
+    assert out is not None # Check that something is printed (you can be more specific here)
