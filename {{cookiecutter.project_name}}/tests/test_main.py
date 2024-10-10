@@ -1,5 +1,5 @@
 """Test cases for the __main__ module."""
-from pytest.capture import CaptureFixture
+import pytest
 # from click.testing import CliRunner
 
 from {{cookiecutter.package_name}} import __main__
