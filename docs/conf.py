@@ -2,8 +2,8 @@
 from datetime import datetime
 
 
-project = "Hypermodern Python Cookiecutter"
-author = "Claudio Jolowicz"
+project = "Hypermodern Python Cookiecutter for the Nanosystems Lab"
+author = "Nanosystemslab"
 copyright = f"{datetime.now().year}, {author}"
 extensions = ["sphinx.ext.intersphinx", "myst_parser"]
 intersphinx_mapping = {"mypy": ("https://mypy.readthedocs.io/en/stable/", None)}
