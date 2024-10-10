@@ -16,7 +16,7 @@ from {{cookiecutter.package_name}} import __main__
 #     result = runner.invoke(__main__.main)
 #     assert result.exit_code == 0
 
-def test_main_succeeds(capfd) -> None:
+def test_main_succeeds(capfd: any) -> None:
     """It prints output and exits successfully."""
     print(type(capfd))
     __main__.main()  # Directly call the main function
