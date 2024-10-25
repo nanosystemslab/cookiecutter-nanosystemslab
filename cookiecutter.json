@@ -6,7 +6,8 @@
   "email": "fnslab@hawaii.edu",
   "github_user": "nanosystemslab",
   "project_version": "0.0.0",
-  "python_version": ">=3.9, <4.0",
+  "python_version_min": "3.9",
+  "python_version_max": "4.0",
   "copyright_year": "{% now 'utc', '%Y' %}",
   "license": ["MIT", "Apache-2.0", "GPL-3.0"],
   "development_status": [
