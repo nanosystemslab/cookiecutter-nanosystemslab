@@ -21,7 +21,7 @@ classifiers = [
 Changelog = "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/releases"
 
 [tool.poetry.dependencies]
-python = ">=3.9, <4.0"
+python = "{{cookiecutter.python_version}}"
 argparse = ">=1.4.0"
 
 [tool.poetry.dev-dependencies]
